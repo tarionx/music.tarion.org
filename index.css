@@ -1,0 +1,46 @@
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+    scroll-behavior: smooth;
+}
+
+:root {
+    color-scheme: dark;
+}
+
+.colours {
+    --background-color: rgb(28, 28, 28);
+    --background-color-alt: rgb(42, 42, 42);
+    --background-color-alt2: rgb(62, 62, 62);
+    --background-color-alt3: rgb(52, 52, 52);
+    --background-color-projects: rgb(36, 36, 36);
+
+    --footer-color: rgb(30, 30, 30);
+
+    --button-color: rgb(141, 62, 55);
+    --button-color-alt: rgb(171, 92, 75);
+
+    --text-color: rgb(217, 182, 143);
+    --text-color-alt: rgb(210, 166, 117);
+    --text-color-alt2: rgb(257, 222, 183);
+    --text-color-important: rgb(208, 71, 59);
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-size: 1.1rem;
+    font-style: normal;
+    font-variation-settings: 
+        "wdth" 100;
+
+    background-color: var(--background-color);
+}
